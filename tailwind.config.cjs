@@ -13,6 +13,9 @@ module.exports = {
         line: "1px",
         lineW: "25rem",
       },
+      backgroundImage: {
+        headerimg: "url(./src/assets/details-2-background.jpg)",
+      },
     },
   },
   plugins: [],

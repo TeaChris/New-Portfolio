@@ -1,3 +1,18 @@
+export const links = [
+  {
+    name: "Home",
+    path: "/",
+  },
+  {
+    name: "Resume",
+    path: "/resume",
+  },
+  {
+    name: "Shelf",
+    path: "/shelf",
+  },
+];
+
 export const techs = [
   {
     id: 1,

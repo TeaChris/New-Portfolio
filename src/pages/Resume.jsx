@@ -9,7 +9,7 @@ import Experiences from "../Components/Experiences";
 
 const Resume = () => {
   return (
-    <main className="container mx-auto flex flex-col items-end gap-16 bg-green-100 h-fit p-8 rounded-2xl shadow-md">
+    <main className="container mx-auto flex flex-col items-end gap-16 bg-green-100 h-fit p-2 md:p-8 rounded-2xl shadow-md mt-16">
       {/* socials -- download */}
       <div className="flex flex-row items-center gap-3 cursor-pointer">
         <div className="flex flex-row items-center gap-2">
