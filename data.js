@@ -1,3 +1,11 @@
+import Img1 from "./src/assets/react.svg";
+import Img2 from "./src/assets/react.svg";
+import Img3 from "./src/assets/react.svg";
+import Img4 from "./src/assets/react.svg";
+import Img5 from "./src/assets/react.svg";
+import Img6 from "./src/assets/react.svg";
+import Img7 from "./src/assets/react.svg";
+
 export const links = [
   {
     name: "Home",
@@ -107,26 +115,54 @@ export const others = [
   },
 ];
 
-export const expirences = [
+export const works = [
   {
     id: 1,
-    name: "AIM",
-    date: "Nov 2019 - 2022",
-    desc: "Computer Tutor / Web Developer",
-    work: "Shaping the future of the student with over-all IT knowledge. Building and advocating for inclusive and thoughtful experiences for over a hundred student across the state",
+    img: Img1,
+    name: "Spirits",
+    link: "https://github.com/TeaChris/spirit-repair",
+    type: "typescript",
   },
   {
-    id: 2,
-    name: "Spirit Of Africa",
-    date: "Jan 2022 - Sept 2022",
-    desc: "Frontend Engineer",
-    work: "I orchestrated and developed the frontend infrastructure, design and functionality for SOA new JavaScript-centric app powered by React + Typscript and also managed a co-engineer and product designers.",
+    id: 1,
+    img: Img2,
+    name: "Hospital",
+    link: "https://healthsolutionweb.netlify.app",
+    type: "Scss",
   },
   {
-    id: 3,
-    name: "Yamakuza NFT",
-    date: "Sept 2022 - Oct 2022",
-    desc: "Frontend Developer (Contractor)",
-    work: "I worked on a couple of projects for organizations and individuals as a frontend engineering contractor.",
+    id: 1,
+    img: Img3,
+    name: "Manage",
+    link: "manaagee.netlify.app",
+    type: "tailwind",
+  },
+  {
+    id: 4,
+    img: Img4,
+    name: "Fitness App",
+    link: "https://fitnessreactapp.netlify.app",
+    type: "react",
+  },
+  {
+    id: 5,
+    img: Img5,
+    name: "Photo",
+    link: "https://confisio.netlify.app/",
+    type: "css",
+  },
+  {
+    id: 6,
+    img: Img6,
+    name: "JS Projects",
+    link: "https://github.com/TeaChris/JSProjects",
+    type: "JS",
+  },
+  {
+    id: 7,
+    img: Img7,
+    name: "Comfy",
+    link: "https://confisio.netlify.app/",
+    type: "JS",
   },
 ];
