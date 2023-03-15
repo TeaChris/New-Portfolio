@@ -7,11 +7,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full shadow-sm h-14 z-20 top-0 left-0">
+    <nav className="w-full shadow-sm h-14 z-20 top-0 left-0 bg-white fixed">
       <div className="md:flex container mx-auto">
         <div className="md:flex container items-center justify-between py-3 md:px10">
           <Link to="/">
-            <h2 className="text-3xl font-bold text-green-900 cursor-pointer">
+            <h2 className="text-3xl font-bold text-green-900 cursor-pointer p-4">
               Bermuda
             </h2>
           </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* passed the state value as a prop */}
           <Buttons isOpen={isOpen} setIsOpen={setIsOpen} />
           <ul
-            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            className={`md:flex bg-white z-10 md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
               isOpen ? "top-20" : "top-[-490px]"
             }`}
           >

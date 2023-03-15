@@ -1,11 +1,3 @@
-import Img1 from "./src/assets/react.svg";
-import Img2 from "./src/assets/react.svg";
-import Img3 from "./src/assets/react.svg";
-import Img4 from "./src/assets/react.svg";
-import Img5 from "./src/assets/react.svg";
-import Img6 from "./src/assets/react.svg";
-import Img7 from "./src/assets/react.svg";
-
 export const links = [
   {
     name: "Home",
@@ -118,49 +110,49 @@ export const others = [
 export const works = [
   {
     id: 1,
-    img: Img1,
+    desc: "Here I designed a fully functional for NFT project web app using typesctipt. A real World Project",
     name: "Spirits",
     link: "https://github.com/TeaChris/spirit-repair",
     type: "typescript",
   },
   {
-    id: 1,
-    img: Img2,
+    id: 2,
+    desc: "Here I design a Hospital website that could be used to schedule a meeting with Doctors",
     name: "Hospital",
     link: "https://healthsolutionweb.netlify.app",
     type: "Scss",
   },
   {
-    id: 1,
-    img: Img3,
+    id: 3,
+    desc: " A challenge I picked up from frontend mentor website. A real world project",
     name: "Manage",
     link: "manaagee.netlify.app",
     type: "tailwind",
   },
   {
     id: 4,
-    img: Img4,
+    desc: "Here is a web app i designed at my leisure",
     name: "Fitness App",
     link: "https://fitnessreactapp.netlify.app",
     type: "react",
   },
   {
     id: 5,
-    img: Img5,
+    desc: "A photography portfolio i designed based on the ui that was given to me",
     name: "Photo",
     link: "https://confisio.netlify.app/",
     type: "css",
   },
   {
     id: 6,
-    img: Img6,
+    desc: "Here are some JS project i was able to work on at my leisure",
     name: "JS Projects",
     link: "https://github.com/TeaChris/JSProjects",
     type: "JS",
   },
   {
     id: 7,
-    img: Img7,
+    desc: "Here i designed an e-commerce website for a friend (still in progress)",
     name: "Comfy",
     link: "https://confisio.netlify.app/",
     type: "JS",

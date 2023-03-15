@@ -16,7 +16,7 @@ const App = () => {
         <Route path="resume" element={<Resume />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 };

@@ -12,6 +12,8 @@ module.exports = {
       spacing: {
         line: "1px",
         lineW: "25rem",
+        me: "40rem",
+        mee: "25rem",
       },
       backgroundImage: {
         headerimg: "url(./src/assets/details-2-background.jpg)",
